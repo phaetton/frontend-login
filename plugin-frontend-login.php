@@ -19,3 +19,5 @@
  }
 
  add_action("wp_head",'rfsu_test');
+
+ require_once plugin_dir_path(__FILE__)."public/shortcode/form-registro.php";
