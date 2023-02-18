@@ -11,8 +11,8 @@ function rfsu_api_registro(){
 }
 
 function rfsu_registro_callback($request){
-    return "mi primer api";
-    // return $request->get_params();
+    // return "mi primer api";
+    return $request->get_params();
 }
 
 add_action('rest_api_init','rfsu_api_registro');
