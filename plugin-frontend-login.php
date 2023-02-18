@@ -14,10 +14,14 @@
  * Domain Path:       /languages
  */
 
- function rfsu_test(){
-    echo "<h1>titulo del plugin</h1>";
- }
+//  function rfsu_test(){
+//     echo "<h1>titulo del plugin</h1>";
+//  }
 
- add_action("wp_head",'rfsu_test');
+//  add_action("wp_head",'rfsu_test');
 
+//shortcode
  require_once plugin_dir_path(__FILE__)."public/shortcode/form-registro.php";
+
+ //api rest
+ require_once plugin_dir_path(__FILE__)."includes/API/api-registro.php";
